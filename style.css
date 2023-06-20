@@ -1,0 +1,103 @@
+/* Général */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: roboto;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+/* Header de la page contenant le logo à gauche et le menu à droite */
+
+header{
+    height: 70px;
+    background-color: #1F2937;
+    
+}
+
+header h1{
+    font-size: 24px;
+    color: #F9FAF8;
+    float: left;
+    margin-top: 20px;
+}
+
+header nav{
+    float: right;
+    margin-top: 25px;
+}
+
+h1 #point{
+    color: red;
+}
+
+ul{  
+    font-size: 18px;
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+}
+
+li a{
+    color: #E5E7EB;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+/* Partie contenant la description */
+
+#intro{
+    background-color: #1F2937;
+    height: 500px;
+}
+
+.textintro{
+    width: 460px;
+    height: 200px;
+    margin-top: 100px;
+    background-color: #1F2937;
+    padding-top: 20px;
+    float: left;
+}
+
+.imageintro{
+    width: 560px;
+    height: 260px;
+    margin-top: 100px;
+    background-color: rgb(119, 119, 119);
+    float: right;
+    
+}
+
+#intro h1{
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+#intro p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#intro button{
+    width: 100px;
+    height: 30px;
+    margin: 15px 0;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border: 0;
+}
+
+/* Partie illustration */
+
