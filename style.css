@@ -101,3 +101,118 @@ li a{
 
 /* Partie illustration */
 
+#informations{
+    background-color: #ffffff;
+    height: 500px;
+}
+
+#informations h2{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.illustrations{
+    display: flex;
+    justify-content: space-between;
+}
+
+.vignettes{
+    display: inline-block;
+}
+
+.vignettes img{
+    width: 170px;
+    height: 170px;
+    border: solid 2px #3882F6;
+    border-radius: 15px;
+}
+
+.vignettes p{
+    margin-top: 10px;
+    width: 170px;
+    text-align: center;
+}
+
+/* Partie contenant une citation avec le nom de l'auteur */
+
+#citationText{
+    background-color: #E5E7EB;
+    height: 500px;
+}
+
+#citationText .wrapper{
+    padding-top: 120px;
+}
+
+#citationText p{
+    margin-top: 50px;
+    color: rgb(117, 117, 117);
+    font-size: 36px;
+    font-style: italic;
+}
+
+#citationText span{
+    color: #1F2937;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 28px;
+    float: right;
+    margin: 50px 0;
+    margin-right: 20px;
+}
+
+/* Partie contenant un cadre pour un call to action avec un texte et un bouton */
+
+#callToAction{
+    height: 300px;
+    background-color: #ffffff;
+}
+
+.bluebox{
+    margin-top: 100px;
+    background-color: #3882F6;
+    height: 100px;
+    border-radius: 10px;
+    padding: 50px 100px;
+}
+
+.callText{
+    margin: 15px 0;
+    color: #ffffff;
+    float: left;
+}
+
+.callText h4{
+    margin-top: 15px;
+    
+}
+
+.callbutton button{
+    margin-top: 35px;
+    margin-right: 20px;
+    width: 100px;
+    height: 30px;
+    float: right;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border: solid 2px #ffffff;
+}
+
+/* Footer Partie contenant le copyright */
+
+footer{
+    background-color: #1F2937;
+    height: 70px;
+    padding-top: 40px;
+}
+
+footer p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 19px;
+}
